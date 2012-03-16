@@ -72,7 +72,6 @@ $config['twiggy']['delimiters'] = array
 |
 */
 
-$config['twiggy']['environment']['cache']              	= FALSE;
 $config['twiggy']['environment']['debug']              	= FALSE;
 $config['twiggy']['environment']['charset']            	= 'utf-8';
 $config['twiggy']['environment']['base_template_class']	= 'Twig_Template';
@@ -92,7 +91,7 @@ $config['twiggy']['environment']['optimizations']      	= -1;
 |
 */
 
-$config['twiggy']['twig_cache_dir'] = 'cache/twig/';
+$config['twiggy']['environment']['cache'] = 'cache/twig/';
 
 /*
 |--------------------------------------------------------------------------
